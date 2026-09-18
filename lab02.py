@@ -50,19 +50,12 @@ def total_of_positives(numbers):
     return total
 
 def main():
-    # Optional scratch space - use this to try your functions with sample values.
-    # Uncomment a line and run `python lab02.py` to see the result.
-    # print(seconds_to_hms(3661))            # 1:01:01
-    # print(admission_price(10))             # 8
-    # print(sum_multiples(10))               # 23
-    # print(total_of_positives([1, -2, 3]))  # 4
-    pass
+
+    print(seconds_to_hms(3661))            # 1:01:01
+    print(admission_price(10))             # 8
+    print(sum_multiples(10))               # 23
+    print(total_of_positives([1, -2, 3]))  # 4
 
 
 if __name__ == "__main__":
     main()
-
-print(seconds_to_hms(3661))
-print(admission_price(3))
-print(sum_multiples(10))
-print(total_of_positives([1, -2, 3, -4, 5]))
